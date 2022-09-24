@@ -1,0 +1,18 @@
+#N canvas 988 364 377 171 12;
+#X obj 77 33 inlet~;
+#X obj 228 33 inlet;
+#X obj 318 34 inlet;
+#X text 72 13 audio;
+#X text 149 7 Hz;
+#X text 224 10 Octave;
+#X text 329 8 Q;
+#X obj 180 91 vcf~;
+#X obj 191 63 *~;
+#X obj 173 124 outlet~;
+#X obj 155 33 inlet;
+#X connect 0 0 7 0;
+#X connect 1 0 8 1;
+#X connect 2 0 7 2;
+#X connect 7 0 9 0;
+#X connect 8 0 7 1;
+#X connect 10 0 8 0;
